@@ -72,7 +72,7 @@ Based on predicted probabilities from the model.
 
 ---
 
-## 📊 Dashboard Preview
+## 📷 Dashboard Preview
 
 ![Dashboard](https://github.com/Atharvgupta1/Loan-Approval-Risk-Prediction-System/blob/402ccde77131f2d61b63753f6e9b457203d246e8/loan-Dashboard.png)
 
