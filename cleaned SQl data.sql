@@ -40,6 +40,13 @@ SET dependents = '3'
 WHERE dependents = '3+';
 
 -- Replacing Missing Values
+
+-- Mode
+SELECT gender, COUNT(*) FROM loans GROUP BY gender ORDER BY COUNT(*) DESC;
+SELECT married, COUNT(*) FROM loans GROUP BY married ORDER BY COUNT(*) DESC;
+SELECT self_employed, COUNT(*) FROM loans GROUP BY self_employed ORDER BY COUNT(*) DESC;
+SELECT dependents, COUNT(*) FROM loans GROUP BY dependents ORDER BY COUNT(*) DESC;
+
 -- Categorical to Mode
 UPDATE loans SET gender = 'Male' WHERE gender IS NULL;
 UPDATE loans SET married = 'Yes' WHERE married IS NULL;
